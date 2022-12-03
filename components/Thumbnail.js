@@ -18,6 +18,7 @@ const Thumbnail = forwardRef((props, ref) => {
         }
         height={1080}
         width={1920}
+        alt="movie"
       />
       <div className="p-2 ">
         <p className=" truncate">{props.result.overview}</p>
